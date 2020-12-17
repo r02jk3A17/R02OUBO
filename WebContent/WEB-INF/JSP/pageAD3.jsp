@@ -12,6 +12,7 @@
 <form method="post" action="./pageAD4">
 7桁の数字A<input type="number" name="numa" placeholder="7桁の数字A" /><br/>
 7桁の数字B<input type="number" name="numb" placeholder="7桁の数字B" /><br/>
+当選賞品<input type="text" name="syouhin" placeholder="x等　xxxxxxx" /><br/>
 <input type="submit" value="登録する" />
 </form>
 
