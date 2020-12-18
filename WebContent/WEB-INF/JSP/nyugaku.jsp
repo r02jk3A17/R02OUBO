@@ -4,18 +4,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="Z:\git\R02OUBO\WebContent\css\style.css" type="text/css">
 <title>新入学セール</title>
 </head>
 <body>
 
-<body bgcolor="#fffaf0" text="#ff00ff">
+<body bgcolor="#fff0f5" text="#ff7f50">
 
 <body style="background-image:url(file:///Z:/git/R02OUBO/WebContent/WEB-INF/image/nyugaku.png)">
 <body style=".resizeimage width:100%;" >
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<h1 style="text-align:center">仙台駅前第一デパート　新入学セール　受付会場</h1>
+<h1>仙台駅前第一デパート　新入学セール　受付会場</h1>
 <%
 String Kigen = (String)request.getAttribute("Result");
 %>
@@ -51,6 +52,9 @@ int num = Integer.parseInt(Kigen);
 </div>
 
 </form>
+
+<p><a href="Christmas">クリスマスセール</a></p>
+<p><a href="Valentine">バレンタインセール</a></p>
 
 </body>
 </html>

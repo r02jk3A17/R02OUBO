@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="Z:\git\R02OUBO\WebContent\css\style.css" type="text/css">
 <title>Insert title here</title>
 </head>
 <body>
